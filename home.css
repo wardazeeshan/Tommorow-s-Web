@@ -1,0 +1,213 @@
+/* style.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    position: relative;
+    top: 20px;
+    background-image: url("images/Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0.5vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    color: white;
+    font-family: "Black Ops One", system-ui;
+    text-align: center;
+    margin-top: 14vw;
+    margin-left: 25vw;
+    font-size: 60px;
+}
+.extra-txt p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 1vw;
+    margin-left: 48.5vw;
+    font-size: 22.5px;
+    line-height: 1.6; /* Add line spacing */
+}
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7vw;
+    padding-top: 1.5vw;
+}
+
+.btn {
+    background-color: #644839;
+    border: 1px solid #43200e;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 1vw;
+}
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #d3ad7f;
+}
+/*Exploring section*/
+.exploring {
+    position: relative;
+    background-image: url("images/Our\ Story.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; 
+    margin-top: -4.6rem;
+}
+.heading2 h1 {
+    color: #382013;
+    font-family: "Black Ops One", system-ui;
+    text-align: left;
+    margin-top: 5vw;
+    padding-top: 13vw;
+    padding-bottom: .5vw;
+    margin-left: 49vw;
+    font-size: 40px;
+}
+.para p {
+    color: #43200e;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 1vw;
+    margin-left: 49.5vw;
+    font-size: 18px;
+    max-width: 50%; /* Adjust this value as needed */
+    line-height: 1.6; /* Add this line to adjust line spacing */
+}
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7vw;
+    padding-top: 1vw;
+}
+
+.btn2 {
+    background-color: #644839;
+    border: 1px solid #43200e;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 1vw;
+}
+.btn2 a {
+    color: #fff;
+    text-decoration: none;
+}
+.btn2:hover {
+    background-color: #d3ad7f;
+}
+/*------------exploring section ends----------*/
+/*------------product section starts----------*/
+/*------------product section starts----------*/
+.prod-sec {
+    position: relative;
+    background-image: url("images/prod.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 140vh;
+    margin-top: -1.1rem;
+}
+
+.head2 h1 {
+    color: #43200e;
+    text-decoration: underline;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.product-card {
+    background-image: url('images/IMG_3696.JPG');
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 400px; /* Adjust the width */
+    height: 420px; /* Adjust the height */
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card strong {
+    color: #0a0300;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: -1.5vw;
+}
+
+.product-details {
+    font-size: 17px;
+    color: #43200e;
+    font-weight: 900;
+    margin-top: -1.5vw;
+}
+
+.view-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.view-more button {
+    background-color: #644839;
+    border: 1px solid #43200e;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.view-more button a{
+    color: #fff;
+}
+.view-more button:hover {
+    background-color: #d3ad7f;
+}

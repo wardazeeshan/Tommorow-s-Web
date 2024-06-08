@@ -1,0 +1,49 @@
+.footer{
+    background-color: #513625;
+    text-align: center;
+}
+.shar{
+    padding: 2rem 0; 
+}
+.shar a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.shar a:hover{
+    background-color: #d3ad7f;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.links a{
+    padding: 10px 5px;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    margin-top: -2vw;
+    text-decoration: none;
+}
+.links a:hover{
+    background-color: #d3ad7f;
+}
+.credits{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+    margin-top: -2.5vw;
+
+}
+.credits span{
+    color: #d3ad7f;
+}

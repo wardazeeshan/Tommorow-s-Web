@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Black+Ops+One&display=swap');/*initializing variables*/ 
+:root{
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #F5F5EF;
+    --border: 1rem solid rgba (255, 255, 255, .3);
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+ }
+html{
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+body{
+    background: var(--bg);
+}
+/*styling the header*/
+.container{
+    background-color: #513625;
+    border: 1px solid #13131a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.logo {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+/*navigation bar styling*/
+.navbar a{
+    position: relative;
+    margin: 0 1.5vw;
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    font-weight: 600;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+}
+.navbar button{
+    background: transparent;
+    border: none;
+}
+/*icons styling*/
+.icons div{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+}
+.icons div:hover{
+    color: var(--main-color);
+}
+/*hiding the menubar icon*/
+#menu-btn{
+    display: none;
+}
+.search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 35vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1vw;
+    color: var(--black);
+    padding: 1vw;
+    text-transform: none;
+    border: none;
+}
+.search-form label{ 
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: var(--black);  
+}
+.search-form label:hover{
+    color: var(--main-color);
+}
+/*Media quries*/
+@media (max-width: 991px){
+    .container{
+        padding: 1.5vw 2vw;
+    }
+}
+@media (max-width: 991px){
+    #menu-btn{
+        display: inline-block;
+        font-size: 17px;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%; right: -100%;
+        background-color: #513625;
+        width: 15rem;
+        height: calc(100vh - 9.5rem);
+    }
+    .navbar.active{
+        right:0;
+    }
+    .navbar a{
+        color: #ffffff;
+        display: block;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 1.5rem;
+    }
+    .icons div{
+        font-size: 1rem;
+    }
+}

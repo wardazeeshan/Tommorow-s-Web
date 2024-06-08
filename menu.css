@@ -1,0 +1,45 @@
+.menu-head h1{
+    color: #43200e;
+    font-family: "Black Ops One", system-ui;
+    margin-top: 5vw;
+    padding-top: 10px ;
+    text-align: center;
+    text-decoration: underline;
+}
+.box-tainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1vw; 
+}
+.box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+    padding: 5vw;
+    text-align: center;
+    border: 1px solid #43200e;
+}
+.box img{
+    justify-content: center;
+    height: 13.5vw;
+    padding-bottom: .5vw;
+}
+.box h3{
+    color: #43200e;
+    padding-bottom: 1.5vw;
+    text-decoration: underline;
+}
+.box .price{
+    font-weight: 800;font-size: 2rem;
+    padding-bottom: 1.5vw;
+}
+.box .desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #43200e;
+}
+.box-tainer .box:hover{
+    background-color: #d3ad7f;
+    color: #43200e;
+    transition: ease-in-out .2s;
+}
+

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.music-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 5vw;
+}
+.music-container h1{
+  color: #513625;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 3vw;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col1, .col-sm-6, .col-sm-10, .col-sm-12, .col-sm-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col1 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-sm-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+
+.col-sm-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding-top: 5px;
+}
+
+.form-label {
+  padding-left: 0px;
+  color: #513625;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 100px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control-sm {
+  height: calc(1.5em + .5rem + 2px);
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: 100px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 100px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #513625;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #d3ad7f ;
+}
+
+.list-group {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.song-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+img .track {
+  border: 3px solid #8a8a8a;
+  font-size: 20px;
+}
+
+.offset-md-1 {
+  margin-left: 8.333333%;
+}
+
+.px-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.mt-4 {
+  margin-top: 1.5rem ;
+}

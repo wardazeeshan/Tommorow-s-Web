@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("images/IMG_3706.JPG");
+	background-size: cover;
+    background-repeat: no-repeat;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 65vh;
+}
+.container{
+	background-color: #F5F5EF;
+    height: 100%;
+    width: 460px;
+    margin-top: 0.4rem;
+    padding: 1.5rem;
+/*	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+.heading{
+	color: #513625;
+	margin-bottom: 3vw;
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
+input{
+    display: block;
+    color: inherit;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    background-color:#f0e7c2;
+    border: 1px solid  #513625;
+    border-radius: 8px;
+}
+.input-group{
+    padding: 1% 0;
+    position: relative;
+
+}
+input:focus{
+    background-color: #F5F5EF;
+    outline: #513625;   
+}
+input::placeholder{
+    color: transparent;
+}
+label{
+    color: #37154a;
+    font-weight:700 ;
+    font-size: 14px;
+    position: relative;
+    left: .8rem;
+    top: -.2rem;
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    /*top: -4rem;*/
+    color: #513625;
+    font-size: 15px;
+}
+.btn{
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 20px;
+    width: 100%;
+	margin-top: 2vw;
+    background-color: #513625;
+    color: #FAF3FD;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #d3ad7f;
+    color: white;
+    font-weight: bolder;
+}

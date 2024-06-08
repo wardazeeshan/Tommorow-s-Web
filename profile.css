@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/IMG_3706.JPG");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.prof-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #F5F5EF;
+    margin-top: 8vw;
+    height: 40vh;
+}
+.prof-container h1{
+    color: #513625;
+    text-decoration: underline;
+    padding-bottom: 2vw;
+    font-size: 40px;
+}
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    color: #513625;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-bottom: .5vw;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005f7f;
+}
